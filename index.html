@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Case Study #3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <h1 class="logo"><span>Kantunan</span>   Menu</h1>      
+ 
+       <div class="menu">
+   <div class="box one"> <a href="canton.html"><h1>Canton</h1></a> </div>
+        <div class="box two"> <a href="sizzling.html"><h1>Sizzling  Sisig</h1></a></div>
+        <div class="box three"><a href="burger.html"><h1>Burger</h1></a> </div>
+        <div class="box four"><a href="drinks.html"><h1>Drinks</h1></a> </div>
+
+       </div>
+ 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+    * {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(22,22,22);
+    height: 100vh;
+}
+.logo {
+    color: whitesmoke;
+    text-align: center;
+    margin: 2% auto;
+    font-size: 5em;
+}
+
+span{
+    color: crimson;
+}
+
+a {
+    text-decoration: none;
+}
+.menu {
+
+ height: 75vh;
+ width: 90%;
+ margin: 0 5%;
+ display: flex;
+ padding: 0;
+}
+
+.box {
+    width: 100%;
+    border-radius: 10px;
+    transition: 1s;
+    border: none;
+   
+}
+
+.one { 
+    background: linear-gradient(rgba(5, 5, 5, 0.9),rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.3)), url('https://whisperofyum.com/wp-content/uploads/2022/03/pancit-canton.jpg');
+   background-position: center;
+   margin: 0 1%;
+   background-size: cover;
+}
+
+.two {
+    background: linear-gradient(rgba(5, 5, 5, 0.9),rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.3)), url('https://scm-assets.constant.co/scm/unilever/f4b5026fe1dd6b46672ba349cfbb04e4/f0aeb360-b9d0-4fe1-8a42-e32998053276.jpg');
+    background-position: center;
+    margin: 0 1%;
+    background-size: cover;
+}
+
+.three {
+    background: linear-gradient(rgba(5, 5, 5, 0.9),rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.3)), url('https://www.seriouseats.com/thmb/e16lLOoVEix_JZTv7iNyAuWkPn8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__09__20140918-jamie-olivers-comfort-food-insanity-burger-david-loftus-f7d9042bdc2a468fbbd50b10d467dafd.jpg');
+    background-position: center;
+    margin: 0 1%;
+    background-size: cover;
+}
+
+
+.four {
+    background: linear-gradient(rgba(5, 5, 5, 0.9),rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.3)), url('https://d2dyh47stel7w4.cloudfront.net/Pictures/1024x536/4/6/5/261465_premiernortonroad7_180740.jpg');
+    background-position: center;
+    margin: 0 1%;
+    background-size: cover;
+}
+
+.box h1 {
+    color: white;
+    position:relative;
+    height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5% 3%;
+
+
+}
+
+.box:hover {
+    transform: translateY(-20px);
+    border:0.5px solid rgb(22,22,22);
+    box-shadow: 0px 0px 1px rgba(245, 245, 245, 0.338),
+    0px 0px 1px rgba(245, 245, 245, 0.285),
+    0px 0px 1px rgba(245, 245, 245, 0.388),
+    0px 0px 50px rgba(245, 245, 245, 0.208);
+}
+
+@media only screen and (max-width: 800px) {
+   .menu {
+    display: block;
+    max-width: 100%
+   }
+
+   .box {
+    height: 50vh;
+    margin: 5% auto;
+   }
+  }
+
+</style>
+
+            
+       
+    </body>
+</html>
