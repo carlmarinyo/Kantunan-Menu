@@ -1,2 +1,2 @@
 # Food-Menu
-project for our school 👌
+responsive website, project for our school 👌
